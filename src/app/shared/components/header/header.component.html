@@ -1,0 +1,17 @@
+<section class="header">
+
+  <div class="icon">
+    #ICONO
+  </div>
+
+  <div class="header__options">
+    <div class="option" *ngFor="let option of options">
+      {{ option.name }}
+    </div>
+  </div>
+
+  <div class="login-cart">
+    <span (click)="login()">USER</span>
+    <span>CART</span>
+  </div>
+</section>

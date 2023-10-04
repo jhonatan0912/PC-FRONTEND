@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+
+  .banner__left {
+    width: 25%;
+  }
+
+  .form {
+    flex: 1;
+  }
+}

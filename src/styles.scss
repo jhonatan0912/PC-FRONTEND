@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.main-container {
+  margin-inline: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    margin-inline: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    margin-inline: 72px;
+  }
+}
